@@ -1,0 +1,175 @@
+/* BASE STYLES*/
+
+body {
+	font-family: 'Roboto Slab', serif;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	-webkit-transition: color .5s;
+    -moz-transition:    color .5s;
+    -ms-transition:     color .5s;
+    -o-transition:      color .5s;
+    transition:         color .5s;
+}
+h3 {
+	padding-top: 1%;
+	text-align: center;
+	font-size: 36pt;
+	font-weight: bold;
+}
+/*ANIMATION*/
+
+a:hover {
+	color: gold;
+}
+/* GRID */
+
+.full-width {
+	width: 100%;
+}
+.half-width {
+	float: left;
+	overflow: scroll;
+	width: 50%;
+}
+.third-width {
+	float: left;
+	width: 33.33%;
+}
+/* HEADER */
+
+.header {
+	background-image: url(../img/hero.png);
+	background-attachment: fixed;
+	background-position: center top;
+	background-size: cover;
+}
+#header {
+	padding-bottom: 20%;
+	padding-left: 19.92%; 
+	padding-right:19.78%;
+	padding-top: 20%;
+
+	text-align: center;
+}
+h1 {
+	color: #bdbf09;
+	font-size: 60px;
+	font-weight: bold;
+	-webkit-transition: color .5s;
+    -moz-transition:    color .5s;
+    -ms-transition:     color .5s;
+    -o-transition:      color .5s;
+    transition:         color .5s;
+}
+h1:hover {
+	color: gold;
+}
+h2 {
+	color: #095256;
+	font-size: 48px;
+	font-weight: normal;
+}
+
+/*animation*/
+
+h1 {
+	animation: text 3s 1;
+}
+@keyframes text {
+	0%{
+		color: #fafafa;
+		margin-bottom: -40px;
+	}
+	30%{
+		margin-bottom: -40px;
+	}
+}
+
+/* PORTFOLIO */
+
+.description {
+	color: #095256;
+	display: inline-block;
+	font-size: 24px;
+	height: 350px;
+	padding-bottom: 73px;
+	padding-left: 51px;
+	padding-right: 99px;
+}
+.desc-title {
+	font-weight: bold;
+}
+
+#portfolio {
+	float: left;
+}
+.thumbnail {
+	padding-bottom: 45px;
+	padding-left: 101px;
+	padding-top: 27px;
+}
+/* ABOUT */
+
+#about {
+	background-color: #087e8b;
+	color: white;
+	float: left;
+	padding-bottom: 3%;
+}
+#left {
+	padding-left: 101px;
+}
+#right {
+	font-size: 24px;
+	width: 40%;
+}
+
+/* CONTACT */
+
+#contact {
+	color: white;
+	background-color: #095156;
+	float: left;
+	padding-bottom: 3%;
+	text-align: center;
+	width: 100%;
+}
+#mid {
+	font-size: 24px;
+	padding-left: 101px;
+}
+ul li {
+	display: inline-block;
+	padding-right: 5%;
+	text-decoration: none;
+}
+
+/*ANIMATION*/
+
+li {
+	position: relative;
+	display: inline-block;
+}
+li .hoverPhoto {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+li:hover .hoverPhoto {
+	display: inline;
+}
+/* FOOTER */
+
+#footer {
+	background-color: #095156;
+	clear: both;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: .5%;
+}

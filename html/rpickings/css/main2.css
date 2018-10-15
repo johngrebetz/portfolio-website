@@ -1,0 +1,137 @@
+/***** BASE STYLES *****/
+
+header, main {
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 620px;
+	float: left;
+}
+
+.third-width {
+	width: 380px;
+	float: left;
+	height: 200px;
+}
+
+/***** HEADER *****/
+
+header {
+	height: 110px;
+}
+header h1 {
+	color: black;
+	font-size: 30px;
+	padding-top: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+header span {
+	color: #77a466;
+}
+nav {
+	float: right;
+	padding: 30px 27px 0 0;
+
+	word-spacing: 20px;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	color: #77a466;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	word-spacing: 27px;
+
+}
+/***** GREENBEAN *****/
+
+#greenbeans img#greenbeans-img{
+	align-content: center;
+	border: 4px solid #77a466;
+}
+
+/***** ABOUT *****/
+
+#about h2 {
+	color: #77a466;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#about p {
+	font-size: 16px;
+	line-height: 30px;
+	padding-right: 27px;
+
+}
+
+/***** CONTENT *****/
+
+#content {
+
+}
+#content .full-width {
+	padding: 20px;
+}
+#content .third-width {
+	border-top: 2px solid #dedbdc;
+	border-bottom: 2px solid #dedbdc;
+	float: left;
+	padding: 10px 10px;
+}
+#content h3 {
+	font-size: 12px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding-left: 20px;
+}
+#content p {
+	font-size: 16px;
+	padding: 0 20px 0 20px;
+}
+#content ul {
+	list-style: none;
+}
+#content ul li a{
+	color: #77a466;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 30px;
+	text-decoration: none;
+}
+#review {
+	border-left: 2px solid #dedbdc;
+	border-right:  2px solid #dedbdc;
+
+}
+
+/***** FOOTER *****/
+
+.footer {
+
+}
+footer .full-width {
+}
+footer h2 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+footer span {
+	font-family: 'Great Vibes', cursive;
+	font-weight: normal;
+	color: #77a466;
+}
